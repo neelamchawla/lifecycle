@@ -1,0 +1,3 @@
+npm install axios -> http library
+
+https://jsonplaceholder.typicode.com/	-> fetch data

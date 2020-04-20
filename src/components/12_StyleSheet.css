@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+.primary{
+    color: orangered;
+}
+
+.info{
+    color: plum;
+}
+
+.font-xl{
+    font-size: 80px;
+}
+
+.error {
+    color: red;
+}
