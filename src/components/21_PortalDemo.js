@@ -1,17 +1,17 @@
 import React from 'react'  
 import ReactDOM from 'react-dom'  
   
-function PortalDemo(){  
-    return ReactDOM.createPortal(  
-      <h1>Portals Demo</h1>,  
-      document.getElementById('portal-root')  
-    )  
-}  
+// function PortalDemo(){  
+//     return ReactDOM.createPortal(  
+//       <h1>Portals Demo</h1>,  
+//       document.getElementById('portal-root')  
+//     )  
+// }  
 // export default PortalDemo  
 
 
 // These two containers are siblings in the DOM
-const appRoot = document.getElementById('app-root');
+// const appRoot = document.getElementById('app-root');
 const modalRoot = document.getElementById('modal-root');
 
 class Modal extends React.Component {

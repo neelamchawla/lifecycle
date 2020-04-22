@@ -17,7 +17,7 @@ import StyleSheet from './components/12_StyleSheet';
 import Form from './components/13_Form';
 import LifeCycleA from './components/14_LifeCycleA';
 import Fragments from './components/15_Fragments';
-import PureComp from './components/16_PureComp';
+// import PureComp from './components/16_PureComp';
 import ParentComp from './components/16_ParentComp';
 import RefsDemo from './components/17_RefsDemo';
 import Input from './components/18_Input';
@@ -31,12 +31,12 @@ import HoverCounter from './components/23_HoverCounter';
 import ClickCounterTwo from './components/24_ClickCounterTwo';
 import HoverCounterTwo from './components/24_HoverCounterTwo';
 import User from './components/24_User';
-import Counter from './components/24_Counter';
+// import Counter from './components/24_Counter';
 import ComponentC from './components/25_ComponentC';
 import { UserProvider } from './components/25_UserContext';
-import PostList from './components/26_PostList';
+// import PostList from './components/26_PostList';
 import PostForm from './components/26_PostForm';
-import App2 from './App2';
+// import App2 from './App2';
 
 export default class App extends Component {
   constructor(props) {
@@ -49,9 +49,9 @@ export default class App extends Component {
     console.log("App - constructor")
   }
 
-static getDerivedStateFromProps(props, state){
-    console.log("App - derived");
-}
+// static getDerivedStateFromProps(props, state){
+//     console.log("App - derived");
+// }
 
 componentDidMount(){
     console.log("App - Did_mount");
@@ -84,7 +84,8 @@ componentWillUnmount(){
         1 <Student name="Ross" roll={this.state.roll + 1} />
         <br /><hr/><br />
         2 <Class_component />
-        {/* 3 <Monster /> */}
+        <br /><hr/><br />
+        3 <Monster />
         <br /><hr/><br />
         4 <Message />
         <br /><hr/><br />

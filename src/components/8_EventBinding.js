@@ -45,8 +45,11 @@ export default EventBinding
 
 // ========== ways of binding this key word ==============
 
-// this.clickHandler = this.clickHandler.bind(this)       // 1 type
+// this.clickHandler = this.clickHandler.bind(this)
+// 1 type
 
-{/* <button onClick={this.clickHandler.bind(this)}>Click Me</button>     // 2 type */}
+// <button onClick={this.clickHandler.bind(this)}>Click Me</button>
+// 2 type 
 
-{/* <button onClick = {() => this.clickHandler()}>Click Me</button> */}  // 3 type
+// <button onClick = {() => this.clickHandler()}>Click Me</button>
+// 3 type

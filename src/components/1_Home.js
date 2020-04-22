@@ -19,7 +19,7 @@ export default class Home extends React.Component{
     static getDerivedStateFromProps(props, state){
         console.log("Home - derived", state);
         console.log("mroll", props);
-        if (props.roll != state.roll){
+        if (props.roll !== state.roll){
             return { mroll : props.roll };
         }
         return null;

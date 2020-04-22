@@ -1,5 +1,6 @@
 // FR - Forward Ref
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
+import React from 'react'
 
 // class FRInput extends Component {
 //   render() {
