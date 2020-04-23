@@ -22,7 +22,7 @@ class ParentComp extends Component {
     
   render() {
       const {name} = this.state
-      console.log("========= Parent Component =========")
+      // console.log("========= Parent Component =========")
     return (
       <>
         <h1>Parent Component</h1>

@@ -32,12 +32,13 @@ class Lifecycles extends Component {
                 // text: state.text    //forcing change state
             }))
             }
-        >
+        > 
             Update Text
         </button>
-        {this.state.showChild ? 
-        <Lifecycle text={this.state.text} /> :
-        null
+        {
+          this.state.showChild
+          ? <Lifecycle text={this.state.text} />
+          : null
         }
       </div>
     )

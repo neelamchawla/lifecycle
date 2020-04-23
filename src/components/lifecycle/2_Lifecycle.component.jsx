@@ -9,7 +9,7 @@ class Lifecycle extends Component {
 
   componentDidMount() {
     console.log('componentDidMount')
-  }
+  } 
   
   componentDidUpdate() {
     console.log('componentDidUpdate')

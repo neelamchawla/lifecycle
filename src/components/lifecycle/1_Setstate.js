@@ -17,18 +17,18 @@ class Setstate extends Component {
   
     handleClick = () => {
       //1st
-      this.setState({
-        count: this.state.count + 1
-      },
-      () => console.log(this.state.count))
-    }
-      // 2nd
-    //   this.setState((prevState, prevProps) => {
-    //     return { count : prevState.count + prevProps.increment}
+    //   this.setState({
+    //     count: this.state.count + 1
     //   },
-    //     () => console.log(this.state.count)
-    //   )
+    //   () => console.log(this.state.count))
     // }
+      // 2nd
+      this.setState((prevState, prevProps) => {
+        return { count : prevState.count + prevProps.increment}
+      },
+        () => console.log(this.state.count)
+      )
+    }
     
     render() {
       return (
