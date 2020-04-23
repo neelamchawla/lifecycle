@@ -36,7 +36,7 @@ import ComponentC from './components/25_ComponentC';
 import { UserProvider } from './components/25_UserContext';
 // import PostList from './components/26_PostList';
 import PostForm from './components/26_PostForm';
-// import App2 from './App2';
+import App2 from './App2';
 
 export default class App extends Component {
   constructor(props) {
@@ -182,6 +182,10 @@ componentWillUnmount(){
         {/* <PostList /> */}
         <PostForm />
         {/* <App2 /> */}
+        <br /><hr/><br />
+
+        27.
+        <App2 />
       </div>
     )
   }

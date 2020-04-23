@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './css/App.css'
 import logo from './Extra/logo.svg'
-import Setstate from './component/1_Setstate'
-import Lifecycles from './component/2_Lifecycles'
+import Setstate from './components/lifecycle/1_Setstate'
+import Lifecycles from './components/lifecycle/2_Lifecycles'
 
 export default class App2 extends Component {
     constructor(props){
